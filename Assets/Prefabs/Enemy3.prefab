@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1343060678189675214}
   - component: {fileID: 8499006413278454982}
   m_Layer: 0
-  m_Name: Enemy1
+  m_Name: Enemy3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 971412568, guid: 77be49ff919a6fd44981b568408412cd, type: 3}
+  m_Sprite: {fileID: 1564938997, guid: 77be49ff919a6fd44981b568408412cd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5803dc4278e2414ab1ed1d2de330e90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <EnemyType>k__BackingField: {fileID: 11400000, guid: d4a77bc727c32664ab759d6c40f58abd, type: 2}
+  <EnemyType>k__BackingField: {fileID: 11400000, guid: 7f934088ab1f03f43a95defb058ab917, type: 2}
 --- !u!61 &1343060678189675214
 BoxCollider2D:
   m_ObjectHideFlags: 0
