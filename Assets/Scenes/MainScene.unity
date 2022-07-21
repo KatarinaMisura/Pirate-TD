@@ -3571,6 +3571,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2f9fecae6fe3034c8859e28907ea8f8, type: 3}
+--- !u!1 &986712228 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6039458664111196392, guid: c2f9fecae6fe3034c8859e28907ea8f8, type: 3}
+  m_PrefabInstance: {fileID: 986712227}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &990947545 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6827845384514848696, guid: 1d03c9bbff3599240bbd823f198c4cf4, type: 3}
@@ -3688,6 +3693,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33a2a675a161dd54c97aab3214de2fce, type: 3}
+--- !u!1 &1308766139 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6039458664111196392, guid: 33a2a675a161dd54c97aab3214de2fce, type: 3}
+  m_PrefabInstance: {fileID: 1308766138}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1329080677
 GameObject:
   m_ObjectHideFlags: 0
@@ -3903,9 +3913,9 @@ MonoBehaviour:
   towerButtonPrefab: {fileID: 3406222833923684574, guid: 8843542546a363d41b70b73f00861c0d, type: 3}
   towerButtonParent: {fileID: 2525083385187924383}
   towerPlacementController: {fileID: 990947545}
-  healthText: {fileID: 0}
-  endPanelLose: {fileID: 0}
-  endPanelWin: {fileID: 0}
+  healthText: {fileID: 2525083385187924381}
+  endPanelLose: {fileID: 1308766139}
+  endPanelWin: {fileID: 986712228}
 --- !u!4 &2082976093
 Transform:
   m_ObjectHideFlags: 0
@@ -3929,8 +3939,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 510699731458977144, guid: 7a45b7d4413093e48bb9dd88a587d642, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -34
+      objectReference: {fileID: 0}
+    - target: {fileID: 510699731458977144, guid: 7a45b7d4413093e48bb9dd88a587d642, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -6.4694824
+      value: -16.5
       objectReference: {fileID: 0}
     - target: {fileID: 1496681253181966276, guid: 7a45b7d4413093e48bb9dd88a587d642, type: 3}
       propertyPath: m_AnchorMax.y
@@ -3946,7 +3960,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1710824746583278134, guid: 7a45b7d4413093e48bb9dd88a587d642, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -9.469482
+      value: -21.1
       objectReference: {fileID: 0}
     - target: {fileID: 2525083385519367235, guid: 7a45b7d4413093e48bb9dd88a587d642, type: 3}
       propertyPath: m_Pivot.x
@@ -4108,6 +4122,17 @@ MonoBehaviour:
 --- !u!114 &2525083385187924380 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 465659298506842784, guid: 7a45b7d4413093e48bb9dd88a587d642, type: 3}
+  m_PrefabInstance: {fileID: 2525083385187924378}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2525083385187924381 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1186261404374044653, guid: 7a45b7d4413093e48bb9dd88a587d642, type: 3}
   m_PrefabInstance: {fileID: 2525083385187924378}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
@@ -18930,7 +18955,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6827845385201344410, guid: 1d03c9bbff3599240bbd823f198c4cf4, type: 3}
       propertyPath: <EnemyWaves>k__BackingField.Array.data[2].<NumberOfEnemies>k__BackingField
-      value: 84
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 6827845385201344410, guid: 1d03c9bbff3599240bbd823f198c4cf4, type: 3}
       propertyPath: <EnemyWaves>k__BackingField.Array.data[0].<TimeBetweenEnemySpawns>k__BackingField
@@ -18938,7 +18963,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6827845385201344410, guid: 1d03c9bbff3599240bbd823f198c4cf4, type: 3}
       propertyPath: <EnemyWaves>k__BackingField.Array.data[1].<TimeBetweenEnemySpawns>k__BackingField
-      value: 0.25
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6827845385201344410, guid: 1d03c9bbff3599240bbd823f198c4cf4, type: 3}
       propertyPath: <EnemyWaves>k__BackingField.Array.data[2].<TimeBetweenEnemySpawns>k__BackingField
@@ -18954,32 +18979,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6827845385201344410, guid: 1d03c9bbff3599240bbd823f198c4cf4, type: 3}
       propertyPath: <EnemyWaves>k__BackingField.Array.data[2].<EnemiesToSpawn>k__BackingField.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6827845385201344410, guid: 1d03c9bbff3599240bbd823f198c4cf4, type: 3}
       propertyPath: <EnemyWaves>k__BackingField.Array.data[0].<EnemiesToSpawn>k__BackingField.Array.data[0]
       value: 
-      objectReference: {fileID: 1416653504851928580, guid: e78d2684c7ce04a4a89aedc31be230a9, type: 3}
+      objectReference: {fileID: 1416653504851928580, guid: 0c1c028b848776b4cb3bdc4d1f38ef07, type: 3}
     - target: {fileID: 6827845385201344410, guid: 1d03c9bbff3599240bbd823f198c4cf4, type: 3}
       propertyPath: <EnemyWaves>k__BackingField.Array.data[0].<EnemiesToSpawn>k__BackingField.Array.data[1]
       value: 
-      objectReference: {fileID: 1416653504851928580, guid: 42df1101531967b4f91e82715a57d59d, type: 3}
+      objectReference: {fileID: 1416653504851928580, guid: 16238aab7a3f1ca4e8a5bd717cd345a9, type: 3}
     - target: {fileID: 6827845385201344410, guid: 1d03c9bbff3599240bbd823f198c4cf4, type: 3}
       propertyPath: <EnemyWaves>k__BackingField.Array.data[1].<EnemiesToSpawn>k__BackingField.Array.data[0]
       value: 
-      objectReference: {fileID: 1416653504851928580, guid: e78d2684c7ce04a4a89aedc31be230a9, type: 3}
+      objectReference: {fileID: 1416653504851928580, guid: 46d570ea07083a141b40603e15a560dc, type: 3}
     - target: {fileID: 6827845385201344410, guid: 1d03c9bbff3599240bbd823f198c4cf4, type: 3}
       propertyPath: <EnemyWaves>k__BackingField.Array.data[1].<EnemiesToSpawn>k__BackingField.Array.data[1]
       value: 
-      objectReference: {fileID: 1416653504851928580, guid: 6fe03835ed9fd8845bad483bea7c0e95, type: 3}
+      objectReference: {fileID: 1416653504851928580, guid: c49ccc6bcddb7554bae2152fc189fb46, type: 3}
     - target: {fileID: 6827845385201344410, guid: 1d03c9bbff3599240bbd823f198c4cf4, type: 3}
       propertyPath: <EnemyWaves>k__BackingField.Array.data[2].<EnemiesToSpawn>k__BackingField.Array.data[0]
       value: 
-      objectReference: {fileID: 1416653504851928580, guid: 42df1101531967b4f91e82715a57d59d, type: 3}
+      objectReference: {fileID: 1416653504851928580, guid: a99a4d913e4a0804dbd3ac1a2852e595, type: 3}
     - target: {fileID: 6827845385201344410, guid: 1d03c9bbff3599240bbd823f198c4cf4, type: 3}
       propertyPath: <EnemyWaves>k__BackingField.Array.data[2].<EnemiesToSpawn>k__BackingField.Array.data[1]
       value: 
-      objectReference: {fileID: 1416653504851928580, guid: 6fe03835ed9fd8845bad483bea7c0e95, type: 3}
+      objectReference: {fileID: 1416653504851928580, guid: 555f101ade8155c4f97f4b5f9738a5ee, type: 3}
     - target: {fileID: 7138707574783705193, guid: 1d03c9bbff3599240bbd823f198c4cf4, type: 3}
       propertyPath: m_LocalPosition.z
       value: 10
