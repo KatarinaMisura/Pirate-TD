@@ -70,7 +70,10 @@ public class Level : MonoBehaviour
             currentWave = EnemyWaves.First();
             currentWaveTimer = timeBetweenWaves;
         }
-        GameplayManager.Instance.FinishGame();
+        else
+        { 
+            GameplayManager.Instance.FinishGame();
+        }
 
     }
 

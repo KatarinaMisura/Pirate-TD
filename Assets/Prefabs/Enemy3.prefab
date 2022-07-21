@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5803dc4278e2414ab1ed1d2de330e90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <EnemyType>k__BackingField: {fileID: 11400000, guid: 7f934088ab1f03f43a95defb058ab917, type: 2}
+  <EnemyType>k__BackingField: {fileID: 11400000, guid: a9f8b09af4f5be142a348659af5b7dfb, type: 2}
 --- !u!61 &1343060678189675214
 BoxCollider2D:
   m_ObjectHideFlags: 0

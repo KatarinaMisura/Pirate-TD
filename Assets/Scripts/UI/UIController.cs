@@ -25,7 +25,14 @@ public class UIController : MonoBehaviour
     private GameObject towerButtonParent;
     [SerializeField]
     private TowerPlacementController towerPlacementController;
-    
+
+    [SerializeField]
+    private TMP_Text healthText;
+    [SerializeField]
+    private GameObject endPanelLose;
+    [SerializeField]
+    private GameObject endPanelWin;
+
     private bool selected = false;
 
     private List<ITower> currentAvaliableTowers = new List<ITower>();
@@ -45,6 +52,7 @@ public class UIController : MonoBehaviour
         AssignEvents();
         UpdateScoreText(playerController.CurrentScore);
         UpdateMoneyText(playerController.CurrentMoney);
+        UpdateHealthText(GameplayManager.Instance.playerHealth);
     }
 
     private void DestroyTowerButtons()
@@ -62,6 +70,8 @@ public class UIController : MonoBehaviour
     {
         playerController.OnPlayerMoneyChange.AddListener(UpdateMoneyText);
         playerController.OnPlayerScoreChange.AddListener(UpdateScoreText);
+        playerController.OnPlayerHealthChange.AddListener(UpdateHealthText);
+        GameplayManager.Instance.OnGameEnd.AddListener(ShowEndScreen);
     }
 
     private void UpdateScoreText(int score)
@@ -72,6 +82,11 @@ public class UIController : MonoBehaviour
     private void UpdateMoneyText(int money)
     {
         moneyText.text = "$" + money;
+    }
+
+    private void UpdateHealthText(int health)
+    {
+        healthText.text = "Health: " + health;
     }
 
     private void CreateTowerButtons()
@@ -103,7 +118,7 @@ public class UIController : MonoBehaviour
                 towerPlacementController.BuildOnSpot(Input.mousePosition);
                 selected = false;
                 towerPlacementController.ToggleTilemapVisible(false);
-                Debug.Log("Building!");
+                //Debug.Log("Building!");
                 playerController.DecreasePlayerMoney(towerPlacementController.towerSelected.TowerType.Price);
             }
             else
@@ -118,5 +133,13 @@ public class UIController : MonoBehaviour
         towerPlacementController.towerSelected = targetTower;
         selected = true;
         towerPlacementController.ToggleTilemapVisible(true);
+    }
+
+    public void ShowEndScreen()
+    {
+        if(GameplayManager.Instance.playerHealth<=0)
+            endPanelLose.SetActive(true);
+        else
+            endPanelWin.SetActive(true);
     }
 }
