@@ -38,6 +38,7 @@ public class UIController : MonoBehaviour
     {
         
         playerController = GameplayManager.Instance.PlayerController;
+        towerPlacementController.ToggleTilemapVisible(false);
         GetAvaliableTowers();
         DestroyTowerButtons();
         CreateTowerButtons();

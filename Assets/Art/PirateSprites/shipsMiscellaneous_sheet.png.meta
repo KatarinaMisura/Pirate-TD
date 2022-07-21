@@ -45,8 +45,8 @@ TextureImporter:
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 1
-  spritePivot: {x: 0, y: 1}
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -76,6 +76,30 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -84,18 +108,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 437
-        width: 74
-        height: 75
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        y: 612
+        width: 108
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 098b085152695f446aeed7aca1634e27
-      internalID: -1397072015
+      spriteID: 63b7ddd1a9085ce419cc56f9a90ce895
+      internalID: -1071532901
       vertices: []
       indices: 
       edges: []
@@ -104,19 +128,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_1
       rect:
         serializedVersion: 2
-        x: 76
-        y: 504
-        width: 42
-        height: 8
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 110
+        y: 648
+        width: 108
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88f20dc322b543145816334fed46ee07
-      internalID: 564063813
+      spriteID: cf4dd9bfd90ed8049ac01186674d74aa
+      internalID: 1619465170
       vertices: []
       indices: 
       edges: []
@@ -125,19 +149,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_2
       rect:
         serializedVersion: 2
-        x: 120
-        y: 485
-        width: 11
-        height: 27
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 220
+        y: 648
+        width: 108
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ff06b8368efaab48a1d6f68fb9c4091
-      internalID: 575309724
+      spriteID: f94041bdfd8e1ab44893334a416b6766
+      internalID: -1493880724
       vertices: []
       indices: 
       edges: []
@@ -146,19 +170,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_3
       rect:
         serializedVersion: 2
-        x: 136
-        y: 399
-        width: 66
-        height: 113
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 330
+        y: 648
+        width: 108
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afc2fd5fbcb30bb4795480fa74494e1d
-      internalID: -476120115
+      spriteID: 3cb944ab32601bb4a984afe3d6d6b4bb
+      internalID: -499905413
       vertices: []
       indices: 
       edges: []
@@ -167,19 +191,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_4
       rect:
         serializedVersion: 2
-        x: 204
-        y: 399
-        width: 66
-        height: 113
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 110
+        y: 630
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47ffce2b31a5fb54ab433b4b802cee00
-      internalID: 122767221
+      spriteID: 8c2cbd4f4bf4eeb4088e24d89a312057
+      internalID: 458387669
       vertices: []
       indices: 
       edges: []
@@ -188,19 +212,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_5
       rect:
         serializedVersion: 2
-        x: 272
-        y: 399
-        width: 66
-        height: 113
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 138
+        y: 628
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfd8422b7e7c37a42ab8f6c76b1c15ed
-      internalID: -1179000673
+      spriteID: 4289f1db06bc32b4b8e7abb26c041cc7
+      internalID: -386506587
       vertices: []
       indices: 
       edges: []
@@ -209,19 +233,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_6
       rect:
         serializedVersion: 2
-        x: 340
-        y: 399
-        width: 66
-        height: 113
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 166
+        y: 628
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4533c6a8bdf55be43935438d21052fe8
-      internalID: 128891666
+      spriteID: 64e3b0e400b864441a8d66f3e4e8dc9a
+      internalID: -1107099291
       vertices: []
       indices: 
       edges: []
@@ -230,19 +254,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_7
       rect:
         serializedVersion: 2
-        x: 408
-        y: 399
-        width: 66
-        height: 113
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 206
+        y: 596
+        width: 108
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ad36b6b5d03ed046b59231926594402
-      internalID: 143076513
+      spriteID: 141e1374facc5064ea3ac35062484a67
+      internalID: 342990178
       vertices: []
       indices: 
       edges: []
@@ -251,19 +275,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_8
       rect:
         serializedVersion: 2
-        x: 476
-        y: 465
-        width: 66
-        height: 47
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 316
+        y: 596
+        width: 108
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: faaccac2045c78544b9c6cc0e900e90e
-      internalID: -1864773815
+      spriteID: 530a1f6ff795017498283f86ba5a5a31
+      internalID: -758251432
       vertices: []
       indices: 
       edges: []
@@ -272,19 +296,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_9
       rect:
         serializedVersion: 2
-        x: 544
-        y: 465
-        width: 66
-        height: 47
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 426
+        y: 632
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 067e5b7e509a0d04b8c0f88a4d55dc62
-      internalID: -1989618314
+      spriteID: d77092dfd86215343a3514642e956d01
+      internalID: -1188677415
       vertices: []
       indices: 
       edges: []
@@ -293,19 +317,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_10
       rect:
         serializedVersion: 2
-        x: 612
-        y: 404
-        width: 40
-        height: 108
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 110
+        y: 612
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7d405d089cdfc341a2fcd4e175c431f
-      internalID: 1784969322
+      spriteID: 06fe8e4c9ea767e42ba100e91dbddf6a
+      internalID: -1426443830
       vertices: []
       indices: 
       edges: []
@@ -314,19 +338,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_11
       rect:
         serializedVersion: 2
-        x: 76
-        y: 494
-        width: 42
-        height: 8
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 145
+        y: 606
+        width: 38
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8b7877024dc9cb4f888746de206f572
-      internalID: 535402541
+      spriteID: 26ac1e878fa26614d903ff0c08a17c21
+      internalID: -2143180325
       vertices: []
       indices: 
       edges: []
@@ -335,19 +359,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_12
       rect:
         serializedVersion: 2
-        x: 76
-        y: 484
-        width: 42
-        height: 8
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 426
+        y: 610
+        width: 38
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a831f0adf85ced041b0f4f670fc37aa3
-      internalID: 1697682376
+      spriteID: 25e5935f59f21e34598b1c4f2d7fe890
+      internalID: 451312828
       vertices: []
       indices: 
       edges: []
@@ -356,19 +380,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_13
       rect:
         serializedVersion: 2
-        x: 76
-        y: 474
-        width: 42
-        height: 8
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 466
+        y: 614
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e39152a77e89fe34d8aa0e15df50b34c
-      internalID: -473679299
+      spriteID: 141211bb105c201409158f911f1f71df
+      internalID: -171857747
       vertices: []
       indices: 
       edges: []
@@ -377,19 +401,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_14
       rect:
         serializedVersion: 2
-        x: 120
-        y: 473
-        width: 10
-        height: 10
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 0
+        y: 544
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a15062cfcffe8f4db4db12ed5a89936
-      internalID: -1346614202
+      spriteID: a47ead41cf6e6b04c83cd02f921cc379
+      internalID: 165626507
       vertices: []
       indices: 
       edges: []
@@ -398,19 +422,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_15
       rect:
         serializedVersion: 2
-        x: 76
-        y: 463
-        width: 42
-        height: 9
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 49
+        y: 544
+        width: 46
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3b804148ad89e8438c81c0d9c116d54
-      internalID: -1517680127
+      spriteID: 8a2021967a2b84c4e9218df9a5e1cf82
+      internalID: 2117321091
       vertices: []
       indices: 
       edges: []
@@ -419,19 +443,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_16
       rect:
         serializedVersion: 2
-        x: 120
-        y: 449
-        width: 6
-        height: 22
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 97
+        y: 544
+        width: 46
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6386d8901d89ad944859ab647828be70
-      internalID: 1782354556
+      spriteID: 6c1967b597fccfd43908ebb7b292d2bf
+      internalID: 285482259
       vertices: []
       indices: 
       edges: []
@@ -440,19 +464,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_17
       rect:
         serializedVersion: 2
-        x: 128
-        y: 449
-        width: 6
-        height: 22
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 145
+        y: 544
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0533bdf62902e6a40be1ced0e2961896
-      internalID: 1786039820
+      spriteID: 5d62f735928456e4ab9b2da3231dc1d9
+      internalID: 178184968
       vertices: []
       indices: 
       edges: []
@@ -461,19 +485,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_18
       rect:
         serializedVersion: 2
-        x: 76
-        y: 452
-        width: 42
-        height: 9
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 426
+        y: 588
+        width: 38
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51f4f9c7ef01b0344bf0c6e7e55e6959
-      internalID: 1699226485
+      spriteID: ea7e2f763357ad444af96e76595c9893
+      internalID: 1521193172
       vertices: []
       indices: 
       edges: []
@@ -482,19 +506,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_19
       rect:
         serializedVersion: 2
-        x: 476
-        y: 416
-        width: 66
-        height: 47
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 466
+        y: 592
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f9bbc6945a992643b73748bf4387fe9
-      internalID: -742731217
+      spriteID: 98b65428a036d1140976044102e5118e
+      internalID: -1493393753
       vertices: []
       indices: 
       edges: []
@@ -503,19 +527,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_20
       rect:
         serializedVersion: 2
-        x: 544
-        y: 417
-        width: 66
-        height: 46
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 486
+        y: 600
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 937118d25722fd44c8a32d0ee16fc7a5
-      internalID: -245860430
+      spriteID: eeee06b45e536a44c864b5af988f2d33
+      internalID: -331843178
       vertices: []
       indices: 
       edges: []
@@ -524,19 +548,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_21
       rect:
         serializedVersion: 2
-        x: 76
-        y: 441
-        width: 42
-        height: 9
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 206
+        y: 544
+        width: 108
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7aaa41d285de3474f805c6dd2b100777
-      internalID: -508830438
+      spriteID: 613e75bb5fb5bd144bcf48bcf2ffb0a3
+      internalID: 134441648
       vertices: []
       indices: 
       edges: []
@@ -545,19 +569,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_22
       rect:
         serializedVersion: 2
-        x: 0
-        y: 322
-        width: 66
-        height: 113
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 316
+        y: 544
+        width: 108
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a976457b80679f241ae6f5a317d10e7c
-      internalID: -1486587418
+      spriteID: 86ce2c2651a7d3a45901104014e2ffd2
+      internalID: 1556973565
       vertices: []
       indices: 
       edges: []
@@ -566,19 +590,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_23
       rect:
         serializedVersion: 2
-        x: 68
-        y: 322
-        width: 66
-        height: 113
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 486
+        y: 592
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d616cae51e55784188e3d5184201eff
-      internalID: 446065440
+      spriteID: 8f06f1e6cb67cb246a91b4655fc11034
+      internalID: 1477414975
       vertices: []
       indices: 
       edges: []
@@ -587,19 +611,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_24
       rect:
         serializedVersion: 2
-        x: 136
-        y: 284
-        width: 66
-        height: 113
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 426
+        y: 544
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0a6b94b9ad9ba54c8255dc5169e783f
-      internalID: -1737925850
+      spriteID: 2ec5c0964c2f7f04ead602f209074910
+      internalID: 1255355384
       vertices: []
       indices: 
       edges: []
@@ -608,19 +632,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_25
       rect:
         serializedVersion: 2
-        x: 204
-        y: 284
-        width: 66
-        height: 113
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 469
+        y: 568
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3dd93af79bf6ff54abbfcdd948cbf37d
-      internalID: -2137558632
+      spriteID: ccf293c4c4b21ad4d96d03f32f9eb720
+      internalID: 169423003
       vertices: []
       indices: 
       edges: []
@@ -629,19 +653,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_26
       rect:
         serializedVersion: 2
-        x: 272
-        y: 284
-        width: 66
-        height: 113
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 469
+        y: 544
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3845269c58f92d14c962262dabb27c2d
-      internalID: 1259348436
+      spriteID: 26f97afec3d36164cb4dac10a33c75ae
+      internalID: -1702013648
       vertices: []
       indices: 
       edges: []
@@ -650,19 +674,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_27
       rect:
         serializedVersion: 2
-        x: 340
-        y: 284
-        width: 66
-        height: 113
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 0
+        y: 476
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8bb365234c711f4eadb24f37ab335e0
-      internalID: -242632332
+      spriteID: 6d9fa612da29ccb4f92893ef12a0b94f
+      internalID: 157484553
       vertices: []
       indices: 
       edges: []
@@ -671,19 +695,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_28
       rect:
         serializedVersion: 2
-        x: 408
-        y: 284
-        width: 66
-        height: 113
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 49
+        y: 476
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 329dea84134883440954037450a1951b
-      internalID: 409336979
+      spriteID: 20778f837eb59df4ea98fa410553dde3
+      internalID: -646071717
       vertices: []
       indices: 
       edges: []
@@ -692,19 +716,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_29
       rect:
         serializedVersion: 2
-        x: 476
-        y: 367
-        width: 66
-        height: 47
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 98
+        y: 476
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76f19bdb95fce274e8f858973469d8fc
-      internalID: 1010058279
+      spriteID: 2f8586ade56b4ef499d5bf3bcfb7f8d7
+      internalID: -780934267
       vertices: []
       indices: 
       edges: []
@@ -713,19 +737,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_30
       rect:
         serializedVersion: 2
-        x: 544
-        y: 369
-        width: 66
-        height: 46
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 147
+        y: 476
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8071cd5e1b00af45bed2e2893be738d
-      internalID: 1865919071
+      spriteID: 460025228e6db09428794b6438216721
+      internalID: -295599499
       vertices: []
       indices: 
       edges: []
@@ -734,19 +758,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_31
       rect:
         serializedVersion: 2
-        x: 612
-        y: 376
-        width: 16
-        height: 26
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 196
+        y: 476
+        width: 46
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0fe6ceaa7a55d049bd07046e8929cf7
-      internalID: -866295752
+      spriteID: 9a230e62aa425f34b89b479477b1f214
+      internalID: 793449775
       vertices: []
       indices: 
       edges: []
@@ -755,19 +779,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_32
       rect:
         serializedVersion: 2
-        x: 630
-        y: 380
-        width: 6
-        height: 22
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 244
+        y: 476
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d966ff0c0edb5144b4bd32e35a08184
-      internalID: -1103483874
+      spriteID: e0ed7e3902ef64342820aec925822b98
+      internalID: -1836330434
       vertices: []
       indices: 
       edges: []
@@ -776,19 +800,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_33
       rect:
         serializedVersion: 2
-        x: 648
-        y: 294
-        width: 40
-        height: 108
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 293
+        y: 476
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0414ac69447ae2346af256755443c91d
-      internalID: -1044554705
+      spriteID: 243528ab08d9dfc4dbee2d6b283c23ac
+      internalID: 7067873
       vertices: []
       indices: 
       edges: []
@@ -797,19 +821,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_34
       rect:
         serializedVersion: 2
-        x: 476
-        y: 318
-        width: 66
-        height: 47
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 342
+        y: 476
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33f8d68ef70c8ad48acbceacb380f89b
-      internalID: 443444827
+      spriteID: 66680efa5aa1efd47bf926463685e644
+      internalID: -728219461
       vertices: []
       indices: 
       edges: []
@@ -818,19 +842,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_35
       rect:
         serializedVersion: 2
-        x: 544
-        y: 308
-        width: 60
-        height: 59
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 391
+        y: 476
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 684d6de12123d7f4080a641f7a7f9161
-      internalID: -1496141029
+      spriteID: 4203d67888baf1d48928ef64bfc410fe
+      internalID: -127888289
       vertices: []
       indices: 
       edges: []
@@ -839,19 +863,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_36
       rect:
         serializedVersion: 2
-        x: 606
-        y: 329
-        width: 20
-        height: 38
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 440
+        y: 476
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f650f561a725b904490d62b69dd88a33
-      internalID: 269280260
+      spriteID: e49c35b8b1596584c97a8101a5065069
+      internalID: -2072944437
       vertices: []
       indices: 
       edges: []
@@ -860,19 +884,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_37
       rect:
         serializedVersion: 2
-        x: 628
-        y: 348
-        width: 16
-        height: 26
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 489
+        y: 511
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea69ea87503c6b4438971c84fc267bf9
-      internalID: 1500248043
+      spriteID: a55a39aa34644d04596a10bfb80d7f6b
+      internalID: -1310375325
       vertices: []
       indices: 
       edges: []
@@ -881,19 +905,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_38
       rect:
         serializedVersion: 2
-        x: 628
-        y: 320
-        width: 16
-        height: 26
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 489
+        y: 487
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 575cc3ba66abd394b928effbc97b8875
-      internalID: 84137196
+      spriteID: 97c731038961ae841b079be8dd44b14f
+      internalID: -2012263979
       vertices: []
       indices: 
       edges: []
@@ -903,18 +927,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 207
-        width: 66
-        height: 113
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        y: 408
+        width: 113
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca110b09a29299a4980a6d0c9d28cf6c
-      internalID: 688393074
+      spriteID: 39b3996bc976a3849b28f1a1e687d730
+      internalID: -955817680
       vertices: []
       indices: 
       edges: []
@@ -923,19 +947,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_40
       rect:
         serializedVersion: 2
-        x: 68
-        y: 207
-        width: 66
-        height: 113
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 115
+        y: 408
+        width: 113
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7007c5356058f24bb52ec152fd38fed
-      internalID: 308192226
+      spriteID: 9eb0f966f6396f44696da2f49c3983db
+      internalID: 1780265693
       vertices: []
       indices: 
       edges: []
@@ -944,19 +968,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_41
       rect:
         serializedVersion: 2
-        x: 136
-        y: 169
-        width: 66
-        height: 113
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 230
+        y: 408
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37a56e1ea0428d3458f04fa78e48cc17
-      internalID: -439774620
+      spriteID: 24c92fadcb654ed47bb346bb6a631661
+      internalID: 221961059
       vertices: []
       indices: 
       edges: []
@@ -965,19 +989,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_42
       rect:
         serializedVersion: 2
-        x: 204
-        y: 169
-        width: 66
-        height: 113
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 279
+        y: 408
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15730be255179ac499e11942d6811b5d
-      internalID: 419482384
+      spriteID: c07927c75d09a9c48b628465ac7830af
+      internalID: -1021886109
       vertices: []
       indices: 
       edges: []
@@ -986,19 +1010,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_43
       rect:
         serializedVersion: 2
-        x: 272
-        y: 169
-        width: 66
-        height: 113
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 328
+        y: 408
+        width: 46
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24de5d091e377ed4b992af24eb6deb48
-      internalID: 1845672362
+      spriteID: 99c3fd26cc16067488104a7802874aeb
+      internalID: -739227271
       vertices: []
       indices: 
       edges: []
@@ -1007,19 +1031,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_44
       rect:
         serializedVersion: 2
-        x: 340
-        y: 169
-        width: 66
-        height: 113
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 376
+        y: 408
+        width: 46
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78d62fd5653cafc46b3a9bc8c501ecb6
-      internalID: 842414287
+      spriteID: f1750171f74f34a45b3c92c14c831afc
+      internalID: -1690659727
       vertices: []
       indices: 
       edges: []
@@ -1028,19 +1052,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_45
       rect:
         serializedVersion: 2
-        x: 408
-        y: 235
-        width: 66
-        height: 47
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 424
+        y: 408
+        width: 46
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08c830f7c8dd67e4f95835abda27c543
-      internalID: 1378039306
+      spriteID: ffd924a0456e0d24d92b34a2affb2e89
+      internalID: 687023956
       vertices: []
       indices: 
       edges: []
@@ -1049,19 +1073,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_46
       rect:
         serializedVersion: 2
-        x: 476
-        y: 270
-        width: 66
-        height: 46
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 489
+        y: 463
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44a838d4079de8a4cbab6249c9104293
-      internalID: 408253812
+      spriteID: 400892237e563c7478784920c962debc
+      internalID: -1811094676
       vertices: []
       indices: 
       edges: []
@@ -1070,19 +1094,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_47
       rect:
         serializedVersion: 2
-        x: 544
-        y: 198
-        width: 50
-        height: 108
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 472
+        y: 439
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e33a5b1db7ea9548a584223d608ecf3
-      internalID: -889449424
+      spriteID: 748ef970bd623fa4880f2adb844d4bd8
+      internalID: 1457631456
       vertices: []
       indices: 
       edges: []
@@ -1091,19 +1115,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_48
       rect:
         serializedVersion: 2
-        x: 596
-        y: 198
-        width: 50
-        height: 108
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 496
+        y: 439
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55aa2362f04fe2849b29463d73ec00e9
-      internalID: 655886404
+      spriteID: ab29b89793d1cc1468d54239832bf865
+      internalID: 1860019085
       vertices: []
       indices: 
       edges: []
@@ -1112,19 +1136,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_49
       rect:
         serializedVersion: 2
-        x: 648
-        y: 184
-        width: 40
-        height: 108
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 472
+        y: 408
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 990a7614f9caf364c87bf4d5c099c0c8
-      internalID: -915274742
+      spriteID: be288ea9d08362a41aaff086c64462d0
+      internalID: -690819981
       vertices: []
       indices: 
       edges: []
@@ -1133,19 +1157,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_50
       rect:
         serializedVersion: 2
-        x: 408
-        y: 186
-        width: 66
-        height: 47
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 489
+        y: 408
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb33233b942c4a34c953d837e717b9e6
-      internalID: 1869842823
+      spriteID: 04e9806fe8f10334284cf25732783fd5
+      internalID: -1687545785
       vertices: []
       indices: 
       edges: []
@@ -1154,19 +1178,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_51
       rect:
         serializedVersion: 2
-        x: 476
-        y: 221
-        width: 66
-        height: 47
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 0
+        y: 340
+        width: 113
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8642c0b8e7436fe4aad1bf77b00723ae
-      internalID: 784386063
+      spriteID: 5e3ab5793d727ea41ba83d8ae5a11f20
+      internalID: 1807203681
       vertices: []
       indices: 
       edges: []
@@ -1175,19 +1199,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_52
       rect:
         serializedVersion: 2
-        x: 0
-        y: 92
-        width: 66
-        height: 113
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 115
+        y: 340
+        width: 113
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3562258e98f20449a86f6fcfb7ba71c
-      internalID: -625270782
+      spriteID: 4da2d8558af882d409e27c856e95e093
+      internalID: 1870742042
       vertices: []
       indices: 
       edges: []
@@ -1196,19 +1220,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_53
       rect:
         serializedVersion: 2
-        x: 68
-        y: 92
-        width: 66
-        height: 113
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 230
+        y: 340
+        width: 113
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56f2ec1c79f0faa4da50a16333088ad8
-      internalID: 1974856516
+      spriteID: 80cc26f9035053c49a49aab93154d09a
+      internalID: 1085685774
       vertices: []
       indices: 
       edges: []
@@ -1217,19 +1241,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_54
       rect:
         serializedVersion: 2
-        x: 408
-        y: 138
-        width: 66
-        height: 46
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 345
+        y: 340
+        width: 113
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59f3fa4481dc87546b651676272f79c6
-      internalID: -1570517099
+      spriteID: 5ab22361a001e024c91ee109999d5517
+      internalID: 1459787342
       vertices: []
       indices: 
       edges: []
@@ -1238,19 +1262,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_55
       rect:
         serializedVersion: 2
-        x: 476
-        y: 172
-        width: 66
-        height: 47
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 460
+        y: 340
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d25ce3fc784349449a62bce05b31f50
-      internalID: -379529501
+      spriteID: 1c71549f4727cda4187d2f4503818760
+      internalID: -1750779740
       vertices: []
       indices: 
       edges: []
@@ -1259,19 +1283,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_56
       rect:
         serializedVersion: 2
-        x: 544
-        y: 88
-        width: 50
-        height: 108
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 0
+        y: 272
+        width: 113
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5e7b360e3bfffd4297bc13bed6bae0f
-      internalID: 1961658460
+      spriteID: 17d4fcfd85356c94bacfffbaab069aa7
+      internalID: -616244680
       vertices: []
       indices: 
       edges: []
@@ -1280,19 +1304,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_57
       rect:
         serializedVersion: 2
-        x: 596
-        y: 88
-        width: 50
-        height: 108
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 115
+        y: 272
+        width: 113
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ad96acf755194a40a121d387f5fb664
-      internalID: -1972596793
+      spriteID: 20355165bdaf7544a818c7653e110e56
+      internalID: -1824389256
       vertices: []
       indices: 
       edges: []
@@ -1301,19 +1325,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_58
       rect:
         serializedVersion: 2
-        x: 648
-        y: 74
-        width: 40
-        height: 108
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 230
+        y: 272
+        width: 113
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b39d59d1408c7f4ca187cda74bea66c
-      internalID: 1506526379
+      spriteID: a0b4023333a1ac14c8cf1fc00a89240f
+      internalID: 835272477
       vertices: []
       indices: 
       edges: []
@@ -1322,19 +1346,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_59
       rect:
         serializedVersion: 2
-        x: 136
-        y: 54
-        width: 66
-        height: 113
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 345
+        y: 272
+        width: 113
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fed5e501955fd5845b8328f46a46a310
-      internalID: -1025498243
+      spriteID: 5fa069e181949c74597eb9e940b31acc
+      internalID: 1408020676
       vertices: []
       indices: 
       edges: []
@@ -1343,19 +1367,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_60
       rect:
         serializedVersion: 2
-        x: 204
-        y: 54
-        width: 66
-        height: 113
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 460
+        y: 272
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77bf9b5b82351224a8d4b24714391451
-      internalID: -1047534808
+      spriteID: 17c46ae0f3533c142bfa11a886105b34
+      internalID: 1313821664
       vertices: []
       indices: 
       edges: []
@@ -1364,19 +1388,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_61
       rect:
         serializedVersion: 2
-        x: 272
-        y: 54
-        width: 66
-        height: 113
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 0
+        y: 204
+        width: 113
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f99bfd2c2ce73c04e81cf93a01df5f83
-      internalID: -1224389273
+      spriteID: 2ac884d4342d5e74cb17c159bac163f9
+      internalID: 302158702
       vertices: []
       indices: 
       edges: []
@@ -1385,19 +1409,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_62
       rect:
         serializedVersion: 2
-        x: 340
-        y: 54
-        width: 66
-        height: 113
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 115
+        y: 204
+        width: 113
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a53b6cec18597640a60f3b00efc9fe4
-      internalID: 683632831
+      spriteID: d9e0320bd19e8ac4e9a32f6b0d9333cc
+      internalID: -2030503214
       vertices: []
       indices: 
       edges: []
@@ -1406,19 +1430,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_63
       rect:
         serializedVersion: 2
-        x: 408
-        y: 90
-        width: 66
-        height: 46
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 230
+        y: 204
+        width: 113
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6719305423c85c94ab37a0f758f9a3fd
-      internalID: -7016661
+      spriteID: 2bf88c361ee30ce419b9b665376f2059
+      internalID: 1023864213
       vertices: []
       indices: 
       edges: []
@@ -1427,19 +1451,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_64
       rect:
         serializedVersion: 2
-        x: 476
-        y: 123
-        width: 66
-        height: 47
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 345
+        y: 204
+        width: 113
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11aa4aed30955dd4c85bc40be0c66b91
-      internalID: 585769420
+      spriteID: 864b63f0a089fbb478c63e722bc38561
+      internalID: 814682379
       vertices: []
       indices: 
       edges: []
@@ -1448,19 +1472,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_65
       rect:
         serializedVersion: 2
-        x: 0
-        y: 81
-        width: 42
-        height: 9
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 460
+        y: 204
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22125979fe07aba4b87b98b4a2bb1f7d
-      internalID: -569520712
+      spriteID: 42fe597cb8cc3954a85a27dd18715c2a
+      internalID: -1486535932
       vertices: []
       indices: 
       edges: []
@@ -1469,19 +1493,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_66
       rect:
         serializedVersion: 2
-        x: 44
-        y: 81
-        width: 42
-        height: 9
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 0
+        y: 136
+        width: 113
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 317d1a98b92908144b72675ff99ff2af
-      internalID: 245030455
+      spriteID: 280e080159f1093498e1d2de8b6a992c
+      internalID: -1378898182
       vertices: []
       indices: 
       edges: []
@@ -1490,19 +1514,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_67
       rect:
         serializedVersion: 2
-        x: 88
-        y: 74
-        width: 29
-        height: 16
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 115
+        y: 136
+        width: 113
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e4471e5491a8bf49ae2966b3bea53a9
-      internalID: -2085923957
+      spriteID: 024d2430cd6238544947b13bb310a8d8
+      internalID: -1855621949
       vertices: []
       indices: 
       edges: []
@@ -1511,19 +1535,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_68
       rect:
         serializedVersion: 2
-        x: 119
-        y: 79
-        width: 12
-        height: 11
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 230
+        y: 136
+        width: 113
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4754894adc6acf44eb4aa2c789d2bcc4
-      internalID: -1550793161
+      spriteID: 049ab92bebd41044aa6f761ba8175b7e
+      internalID: 348332118
       vertices: []
       indices: 
       edges: []
@@ -1532,19 +1556,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_69
       rect:
         serializedVersion: 2
-        x: 408
-        y: 42
-        width: 66
-        height: 46
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 345
+        y: 136
+        width: 113
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb4f3e9234cbc864dab673f008fdb92f
-      internalID: -1079777875
+      spriteID: 10660deed21405644811a8b3e9693465
+      internalID: -1156249654
       vertices: []
       indices: 
       edges: []
@@ -1553,19 +1577,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_70
       rect:
         serializedVersion: 2
-        x: 476
-        y: 74
-        width: 66
-        height: 47
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 460
+        y: 136
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 244943ab9d91b10498e286f8a244ea00
-      internalID: 432500220
+      spriteID: b39d59a5214ebb349ac1e764a327f272
+      internalID: 2071279386
       vertices: []
       indices: 
       edges: []
@@ -1574,19 +1598,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_71
       rect:
         serializedVersion: 2
-        x: 544
-        y: 45
-        width: 42
-        height: 41
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 0
+        y: 120
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79c85e1f20d61ac4f95b3f11ba76b2ab
-      internalID: -1164703447
+      spriteID: b67475da6a45cb447aa3913536752ac3
+      internalID: 217494025
       vertices: []
       indices: 
       edges: []
@@ -1595,19 +1619,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_72
       rect:
         serializedVersion: 2
-        x: 588
-        y: 48
-        width: 20
-        height: 38
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 29
+        y: 120
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d3d05b9d16c1734a834c48591ed3615
-      internalID: 1199251510
+      spriteID: dde9af3aff9ae7b40bef6f6aa8e373e4
+      internalID: 881727916
       vertices: []
       indices: 
       edges: []
@@ -1616,19 +1640,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_73
       rect:
         serializedVersion: 2
-        x: 610
-        y: 48
-        width: 20
-        height: 38
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 41
+        y: 128
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70e589ac082bfdd4da3f5100d3e891f8
-      internalID: 1776449079
+      spriteID: 82052e036a97d03479883f9ef1bd11cc
+      internalID: -161402926
       vertices: []
       indices: 
       edges: []
@@ -1637,19 +1661,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_74
       rect:
         serializedVersion: 2
-        x: 632
-        y: 64
-        width: 6
-        height: 22
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 77
+        y: 68
+        width: 113
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb3dc9db7707e8e4fb970d6707d42ce5
-      internalID: 1864302747
+      spriteID: a7c9ae70cfee6b84bb0e55b02cebc211
+      internalID: 1308692779
       vertices: []
       indices: 
       edges: []
@@ -1658,19 +1682,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_75
       rect:
         serializedVersion: 2
-        x: 0
-        y: 70
-        width: 42
-        height: 9
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 192
+        y: 68
+        width: 113
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecac52c0d3331ad469635a395a355966
-      internalID: -190665952
+      spriteID: aec5911440677f441aedb7d2bc3bf39d
+      internalID: -1054713208
       vertices: []
       indices: 
       edges: []
@@ -1679,19 +1703,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_76
       rect:
         serializedVersion: 2
-        x: 44
-        y: 70
-        width: 42
-        height: 9
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 307
+        y: 68
+        width: 113
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62c8ab159bccbe5449343768346bfc84
-      internalID: 783881648
+      spriteID: 6976c8a62f96dab4d901fc323472b95f
+      internalID: -1508661586
       vertices: []
       indices: 
       edges: []
@@ -1700,19 +1724,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_77
       rect:
         serializedVersion: 2
-        x: 88
-        y: 65
-        width: 26
-        height: 7
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 422
+        y: 119
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c6154516cfbcf04b9c1ae51e330146c
-      internalID: 1624943744
+      spriteID: 8892b5c718eda8440a524e830f35df93
+      internalID: -1954366335
       vertices: []
       indices: 
       edges: []
@@ -1721,19 +1745,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_78
       rect:
         serializedVersion: 2
-        x: 116
-        y: 62
-        width: 15
-        height: 10
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 440
+        y: 116
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2378de0f5f6846a489f35deca9c378c8
-      internalID: -1296156043
+      spriteID: d4a6a92fd90e52048971658a4c77003a
+      internalID: 12966152
       vertices: []
       indices: 
       edges: []
@@ -1742,19 +1766,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_79
       rect:
         serializedVersion: 2
-        x: 476
-        y: 25
-        width: 66
-        height: 47
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 460
+        y: 68
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c147fe8b3d4bc24499660fbebe9041a7
-      internalID: -1956913847
+      spriteID: 11665ae66adbbad46bcce905adaeffab
+      internalID: -2062832465
       vertices: []
       indices: 
       edges: []
@@ -1763,19 +1787,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_80
       rect:
         serializedVersion: 2
-        x: 0
-        y: 59
-        width: 42
-        height: 9
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 41
+        y: 120
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f859f06d133524d42b333813c4d49db4
-      internalID: -1956771116
+      spriteID: 5f8bf45a03088e240a7f1d5ebae133c9
+      internalID: 367926818
       vertices: []
       indices: 
       edges: []
@@ -1784,19 +1808,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_81
       rect:
         serializedVersion: 2
-        x: 44
-        y: 59
-        width: 42
-        height: 9
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 0
+        y: 76
+        width: 8
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b486362649a195241bd17516e1323ab7
-      internalID: 1044271176
+      spriteID: 8b13378217de7a14cb52da523bbd7b8b
+      internalID: 9222438
       vertices: []
       indices: 
       edges: []
@@ -1805,19 +1829,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_82
       rect:
         serializedVersion: 2
-        x: 88
-        y: 56
-        width: 15
-        height: 7
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 10
+        y: 76
+        width: 8
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d61330323888f143af9cb224b8d6990
-      internalID: -2106536729
+      spriteID: aaf3f06d3d946ea40b22a8f4833ecf0f
+      internalID: 1377684881
       vertices: []
       indices: 
       edges: []
@@ -1826,19 +1850,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_83
       rect:
         serializedVersion: 2
-        x: 0
-        y: 5
-        width: 66
-        height: 47
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 20
+        y: 76
+        width: 8
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e49955eba0dca164c93824df13dd7aa3
-      internalID: 155316257
+      spriteID: f4c31f5cb656d4b4e90b4d25fe6a06a7
+      internalID: 24145329
       vertices: []
       indices: 
       edges: []
@@ -1847,19 +1871,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_84
       rect:
         serializedVersion: 2
-        x: 68
-        y: 5
-        width: 66
-        height: 47
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 30
+        y: 76
+        width: 8
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8675dd5dee573f4c8296657e75def39
-      internalID: 1982772867
+      spriteID: c05be0572787e7c47a08816014ab0da7
+      internalID: 928315452
       vertices: []
       indices: 
       edges: []
@@ -1868,19 +1892,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_85
       rect:
         serializedVersion: 2
-        x: 136
-        y: 5
-        width: 66
-        height: 47
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 40
+        y: 76
+        width: 9
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 821f2d56659e2014b8d1a8edb5435526
-      internalID: -2124115662
+      spriteID: 8bcd2479c25155243b66cb5327929f6b
+      internalID: -1777483111
       vertices: []
       indices: 
       edges: []
@@ -1889,19 +1913,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_86
       rect:
         serializedVersion: 2
-        x: 204
-        y: 5
-        width: 66
-        height: 47
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 51
+        y: 76
+        width: 9
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb299686d12b6cf4482f06a85a39ddc0
-      internalID: -537062077
+      spriteID: 761b3381772deed47ba2101e8c5690a4
+      internalID: 1075265959
       vertices: []
       indices: 
       edges: []
@@ -1910,19 +1934,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_87
       rect:
         serializedVersion: 2
-        x: 272
-        y: 5
-        width: 66
-        height: 47
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 62
+        y: 76
+        width: 9
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 638266e2d5e8a624ead385833cb96092
-      internalID: -182339114
+      spriteID: 625b2646098c5ee4384214cb6273f4a6
+      internalID: -1667199481
       vertices: []
       indices: 
       edges: []
@@ -1931,19 +1955,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_88
       rect:
         serializedVersion: 2
-        x: 340
-        y: 5
-        width: 66
-        height: 47
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 422
+        y: 88
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a83136d430306b34096fcfdfef4de48f
-      internalID: 808873223
+      spriteID: a0cb02572e794dd4d8ef6817f48e4140
+      internalID: 67958598
       vertices: []
       indices: 
       edges: []
@@ -1952,19 +1976,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_89
       rect:
         serializedVersion: 2
-        x: 408
-        y: 30
-        width: 26
-        height: 10
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 440
+        y: 88
+        width: 7
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5cd3e1d15946894d93e404b9a5353a1
-      internalID: -535625998
+      spriteID: 19b3706551b42174aaff81636db6b4b1
+      internalID: -935583412
       vertices: []
       indices: 
       edges: []
@@ -1973,19 +1997,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_90
       rect:
         serializedVersion: 2
-        x: 439
-        y: 18
-        width: 22
-        height: 22
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 449
+        y: 88
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b435cae81c1074f458a05bccd8f2bce1
-      internalID: 2034390554
+      spriteID: 2c1a04c1e9cfd424085541ef71f5404d
+      internalID: -1148431757
       vertices: []
       indices: 
       edges: []
@@ -1994,19 +2018,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_91
       rect:
         serializedVersion: 2
-        x: 544
-        y: 21
-        width: 22
-        height: 22
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 0
+        y: 0
+        width: 75
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f84c683e39b5eb41824338324536d74
-      internalID: 2103295620
+      spriteID: 575d5e4332f3fea40bc6da7334205037
+      internalID: 1131992209
       vertices: []
       indices: 
       edges: []
@@ -2015,19 +2039,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_92
       rect:
         serializedVersion: 2
-        x: 568
-        y: 21
-        width: 22
-        height: 22
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 77
+        y: 0
+        width: 113
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa93d2d83dd86e649bb2aa702e39818d
-      internalID: -67148585
+      spriteID: 827040faa5cae2c45ba5b9e1ae77777d
+      internalID: -1118228615
       vertices: []
       indices: 
       edges: []
@@ -2036,19 +2060,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_93
       rect:
         serializedVersion: 2
-        x: 592
-        y: 28
-        width: 20
-        height: 18
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 192
+        y: 0
+        width: 113
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 315df354c948dfa4498cccdc493d2770
-      internalID: 277053611
+      spriteID: 9101d0eb987048f438d2c8e2b6e64711
+      internalID: -157562824
       vertices: []
       indices: 
       edges: []
@@ -2057,19 +2081,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_94
       rect:
         serializedVersion: 2
-        x: 614
-        y: 7
-        width: 18
-        height: 39
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 307
+        y: 0
+        width: 113
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1dfc8226133e9524184aed497a9e79f1
-      internalID: 555407550
+      spriteID: f2db13d4c01411e418c16f2e905f8445
+      internalID: -1326899277
       vertices: []
       indices: 
       edges: []
@@ -2078,19 +2102,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_95
       rect:
         serializedVersion: 2
-        x: 408
-        y: 3
-        width: 29
-        height: 20
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 422
+        y: 44
+        width: 9
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6aab1ae67b701664c873a1508dbd7d67
-      internalID: 80310061
+      spriteID: f2a819e86a42bb546902e54585b4c4d8
+      internalID: 1943100531
       vertices: []
       indices: 
       edges: []
@@ -2099,19 +2123,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_96
       rect:
         serializedVersion: 2
-        x: 439
-        y: 4
-        width: 20
-        height: 12
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 433
+        y: 44
+        width: 9
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c44342e4323a4a34ca40162d931cbb88
-      internalID: -188891158
+      spriteID: 9e6663aeea119f64f9f7b1f743be7723
+      internalID: -1038295276
       vertices: []
       indices: 
       edges: []
@@ -2120,19 +2144,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_97
       rect:
         serializedVersion: 2
-        x: 463
-        y: 3
-        width: 22
-        height: 20
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 444
+        y: 44
+        width: 9
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60666c878d22d614898eac202da26b72
-      internalID: 1166199964
+      spriteID: b4523030c00a1644bb7c2c66a26fa926
+      internalID: 1269454726
       vertices: []
       indices: 
       edges: []
@@ -2141,19 +2165,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_98
       rect:
         serializedVersion: 2
-        x: 487
-        y: 3
-        width: 22
-        height: 20
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 460
+        y: 0
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b983ccbc2687f674f9974c55ef18c72d
-      internalID: -284764752
+      spriteID: 3d9467d85343f814e9f37c3be4115d65
+      internalID: 529678842
       vertices: []
       indices: 
       edges: []
@@ -2162,19 +2186,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_99
       rect:
         serializedVersion: 2
-        x: 511
-        y: 3
-        width: 22
-        height: 20
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 422
+        y: 0
+        width: 9
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf89229e4165d614b9f268b04f8024b6
-      internalID: 727414387
+      spriteID: 83942a9c1e13570449be394b1c1b017b
+      internalID: -1573579908
       vertices: []
       indices: 
       edges: []
@@ -2183,19 +2207,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_100
       rect:
         serializedVersion: 2
-        x: 592
-        y: 4
-        width: 6
-        height: 22
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 433
+        y: 0
+        width: 9
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30dccdddf6b48834d94f9364589d9cfa
-      internalID: -1869418188
+      spriteID: b8d259c9e7fca4f4a80d336aa0e5ce7a
+      internalID: -1116953791
       vertices: []
       indices: 
       edges: []
@@ -2204,19 +2228,19 @@ TextureImporter:
       name: shipsMiscellaneous_sheet_101
       rect:
         serializedVersion: 2
-        x: 600
-        y: 4
-        width: 6
-        height: 22
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 444
+        y: 0
+        width: 9
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e02b125894af2dc47aa57ac47aba2811
-      internalID: -943166109
+      spriteID: 0ab545d6cbc0a34489629db5bf42ac9b
+      internalID: -119073505
       vertices: []
       indices: 
       edges: []
@@ -2225,115 +2249,115 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      shipsMiscellaneous_sheet_66: 245030455
-      shipsMiscellaneous_sheet_18: 1699226485
-      shipsMiscellaneous_sheet_40: 308192226
-      shipsMiscellaneous_sheet_99: 727414387
-      shipsMiscellaneous_sheet_63: -7016661
-      shipsMiscellaneous_sheet_56: 1961658460
-      shipsMiscellaneous_sheet_101: -943166109
-      shipsMiscellaneous_sheet_75: -190665952
-      shipsMiscellaneous_sheet_100: -1869418188
-      shipsMiscellaneous_sheet_21: -508830438
-      shipsMiscellaneous_sheet_67: -2085923957
-      shipsMiscellaneous_sheet_55: -379529501
-      shipsMiscellaneous_sheet_80: -1956771116
-      shipsMiscellaneous_sheet_60: -1047534808
-      shipsMiscellaneous_sheet_39: 688393074
-      shipsMiscellaneous_sheet_4: 122767221
-      shipsMiscellaneous_sheet_61: -1224389273
-      shipsMiscellaneous_sheet_65: -569520712
-      shipsMiscellaneous_sheet_45: 1378039306
-      shipsMiscellaneous_sheet_2: 575309724
-      shipsMiscellaneous_sheet_79: -1956913847
-      shipsMiscellaneous_sheet_72: 1199251510
-      shipsMiscellaneous_sheet_47: -889449424
-      shipsMiscellaneous_sheet_9: -1989618314
-      shipsMiscellaneous_sheet_43: 1845672362
-      shipsMiscellaneous_sheet_70: 432500220
-      shipsMiscellaneous_sheet_48: 655886404
-      shipsMiscellaneous_sheet_7: 143076513
-      shipsMiscellaneous_sheet_54: -1570517099
-      shipsMiscellaneous_sheet_88: 808873223
-      shipsMiscellaneous_sheet_22: -1486587418
-      shipsMiscellaneous_sheet_71: -1164703447
-      shipsMiscellaneous_sheet_13: -473679299
-      shipsMiscellaneous_sheet_26: 1259348436
-      shipsMiscellaneous_sheet_62: 683632831
-      shipsMiscellaneous_sheet_76: 783881648
-      shipsMiscellaneous_sheet_85: -2124115662
-      shipsMiscellaneous_sheet_84: 1982772867
-      shipsMiscellaneous_sheet_96: -188891158
-      shipsMiscellaneous_sheet_5: -1179000673
-      shipsMiscellaneous_sheet_42: 419482384
-      shipsMiscellaneous_sheet_24: -1737925850
-      shipsMiscellaneous_sheet_10: 1784969322
-      shipsMiscellaneous_sheet_52: -625270782
-      shipsMiscellaneous_sheet_98: -284764752
-      shipsMiscellaneous_sheet_93: 277053611
-      shipsMiscellaneous_sheet_97: 1166199964
-      shipsMiscellaneous_sheet_3: -476120115
-      shipsMiscellaneous_sheet_94: 555407550
-      shipsMiscellaneous_sheet_46: 408253812
-      shipsMiscellaneous_sheet_11: 535402541
-      shipsMiscellaneous_sheet_92: -67148585
-      shipsMiscellaneous_sheet_38: 84137196
-      shipsMiscellaneous_sheet_44: 842414287
-      shipsMiscellaneous_sheet_32: -1103483874
-      shipsMiscellaneous_sheet_58: 1506526379
-      shipsMiscellaneous_sheet_6: 128891666
-      shipsMiscellaneous_sheet_14: -1346614202
-      shipsMiscellaneous_sheet_36: 269280260
-      shipsMiscellaneous_sheet_57: -1972596793
-      shipsMiscellaneous_sheet_73: 1776449079
-      shipsMiscellaneous_sheet_78: -1296156043
-      shipsMiscellaneous_sheet_27: -242632332
-      shipsMiscellaneous_sheet_68: -1550793161
-      shipsMiscellaneous_sheet_82: -2106536729
-      shipsMiscellaneous_sheet_34: 443444827
-      shipsMiscellaneous_sheet_29: 1010058279
-      shipsMiscellaneous_sheet_30: 1865919071
-      shipsMiscellaneous_sheet_8: -1864773815
-      shipsMiscellaneous_sheet_91: 2103295620
-      shipsMiscellaneous_sheet_20: -245860430
-      shipsMiscellaneous_sheet_23: 446065440
-      shipsMiscellaneous_sheet_87: -182339114
-      shipsMiscellaneous_sheet_28: 409336979
-      shipsMiscellaneous_sheet_19: -742731217
-      shipsMiscellaneous_sheet_90: 2034390554
-      shipsMiscellaneous_sheet_41: -439774620
-      shipsMiscellaneous_sheet_12: 1697682376
-      shipsMiscellaneous_sheet_31: -866295752
-      shipsMiscellaneous_sheet_59: -1025498243
-      shipsMiscellaneous_sheet_81: 1044271176
-      shipsMiscellaneous_sheet_15: -1517680127
-      shipsMiscellaneous_sheet_77: 1624943744
-      shipsMiscellaneous_sheet_17: 1786039820
-      shipsMiscellaneous_sheet_16: 1782354556
-      shipsMiscellaneous_sheet_0: -1397072015
-      shipsMiscellaneous_sheet_53: 1974856516
-      shipsMiscellaneous_sheet_69: -1079777875
-      shipsMiscellaneous_sheet_50: 1869842823
-      shipsMiscellaneous_sheet_64: 585769420
-      shipsMiscellaneous_sheet_37: 1500248043
-      shipsMiscellaneous_sheet_35: -1496141029
-      shipsMiscellaneous_sheet_1: 564063813
-      shipsMiscellaneous_sheet_51: 784386063
-      shipsMiscellaneous_sheet_86: -537062077
-      shipsMiscellaneous_sheet_89: -535625998
-      shipsMiscellaneous_sheet_95: 80310061
-      shipsMiscellaneous_sheet_25: -2137558632
-      shipsMiscellaneous_sheet_49: -915274742
-      shipsMiscellaneous_sheet_74: 1864302747
-      shipsMiscellaneous_sheet_33: -1044554705
-      shipsMiscellaneous_sheet_83: 155316257
+      shipsMiscellaneous_sheet_66: -1378898182
+      shipsMiscellaneous_sheet_18: 1521193172
+      shipsMiscellaneous_sheet_40: 1780265693
+      shipsMiscellaneous_sheet_99: -1573579908
+      shipsMiscellaneous_sheet_63: 1023864213
+      shipsMiscellaneous_sheet_56: -616244680
+      shipsMiscellaneous_sheet_101: -119073505
+      shipsMiscellaneous_sheet_75: -1054713208
+      shipsMiscellaneous_sheet_100: -1116953791
+      shipsMiscellaneous_sheet_21: 134441648
+      shipsMiscellaneous_sheet_67: -1855621949
+      shipsMiscellaneous_sheet_55: -1750779740
+      shipsMiscellaneous_sheet_80: 367926818
+      shipsMiscellaneous_sheet_60: 1313821664
+      shipsMiscellaneous_sheet_39: -955817680
+      shipsMiscellaneous_sheet_4: 458387669
+      shipsMiscellaneous_sheet_61: 302158702
+      shipsMiscellaneous_sheet_65: -1486535932
+      shipsMiscellaneous_sheet_45: 687023956
+      shipsMiscellaneous_sheet_2: -1493880724
+      shipsMiscellaneous_sheet_79: -2062832465
+      shipsMiscellaneous_sheet_72: 881727916
+      shipsMiscellaneous_sheet_47: 1457631456
+      shipsMiscellaneous_sheet_9: -1188677415
+      shipsMiscellaneous_sheet_43: -739227271
+      shipsMiscellaneous_sheet_70: 2071279386
+      shipsMiscellaneous_sheet_48: 1860019085
+      shipsMiscellaneous_sheet_7: 342990178
+      shipsMiscellaneous_sheet_54: 1459787342
+      shipsMiscellaneous_sheet_88: 67958598
+      shipsMiscellaneous_sheet_22: 1556973565
+      shipsMiscellaneous_sheet_71: 217494025
+      shipsMiscellaneous_sheet_13: -171857747
+      shipsMiscellaneous_sheet_26: -1702013648
+      shipsMiscellaneous_sheet_62: -2030503214
+      shipsMiscellaneous_sheet_76: -1508661586
+      shipsMiscellaneous_sheet_85: -1777483111
+      shipsMiscellaneous_sheet_84: 928315452
+      shipsMiscellaneous_sheet_96: -1038295276
+      shipsMiscellaneous_sheet_5: -386506587
+      shipsMiscellaneous_sheet_42: -1021886109
+      shipsMiscellaneous_sheet_24: 1255355384
+      shipsMiscellaneous_sheet_10: -1426443830
+      shipsMiscellaneous_sheet_52: 1870742042
+      shipsMiscellaneous_sheet_98: 529678842
+      shipsMiscellaneous_sheet_93: -157562824
+      shipsMiscellaneous_sheet_97: 1269454726
+      shipsMiscellaneous_sheet_3: -499905413
+      shipsMiscellaneous_sheet_94: -1326899277
+      shipsMiscellaneous_sheet_46: -1811094676
+      shipsMiscellaneous_sheet_11: -2143180325
+      shipsMiscellaneous_sheet_92: -1118228615
+      shipsMiscellaneous_sheet_38: -2012263979
+      shipsMiscellaneous_sheet_44: -1690659727
+      shipsMiscellaneous_sheet_32: -1836330434
+      shipsMiscellaneous_sheet_58: 835272477
+      shipsMiscellaneous_sheet_6: -1107099291
+      shipsMiscellaneous_sheet_14: 165626507
+      shipsMiscellaneous_sheet_36: -2072944437
+      shipsMiscellaneous_sheet_57: -1824389256
+      shipsMiscellaneous_sheet_73: -161402926
+      shipsMiscellaneous_sheet_78: 12966152
+      shipsMiscellaneous_sheet_27: 157484553
+      shipsMiscellaneous_sheet_68: 348332118
+      shipsMiscellaneous_sheet_82: 1377684881
+      shipsMiscellaneous_sheet_34: -728219461
+      shipsMiscellaneous_sheet_29: -780934267
+      shipsMiscellaneous_sheet_30: -295599499
+      shipsMiscellaneous_sheet_8: -758251432
+      shipsMiscellaneous_sheet_91: 1131992209
+      shipsMiscellaneous_sheet_20: -331843178
+      shipsMiscellaneous_sheet_23: 1477414975
+      shipsMiscellaneous_sheet_87: -1667199481
+      shipsMiscellaneous_sheet_28: -646071717
+      shipsMiscellaneous_sheet_19: -1493393753
+      shipsMiscellaneous_sheet_90: -1148431757
+      shipsMiscellaneous_sheet_41: 221961059
+      shipsMiscellaneous_sheet_12: 451312828
+      shipsMiscellaneous_sheet_31: 793449775
+      shipsMiscellaneous_sheet_59: 1408020676
+      shipsMiscellaneous_sheet_81: 9222438
+      shipsMiscellaneous_sheet_15: 2117321091
+      shipsMiscellaneous_sheet_77: -1954366335
+      shipsMiscellaneous_sheet_17: 178184968
+      shipsMiscellaneous_sheet_16: 285482259
+      shipsMiscellaneous_sheet_0: -1071532901
+      shipsMiscellaneous_sheet_53: 1085685774
+      shipsMiscellaneous_sheet_69: -1156249654
+      shipsMiscellaneous_sheet_50: -1687545785
+      shipsMiscellaneous_sheet_64: 814682379
+      shipsMiscellaneous_sheet_37: -1310375325
+      shipsMiscellaneous_sheet_35: -127888289
+      shipsMiscellaneous_sheet_1: 1619465170
+      shipsMiscellaneous_sheet_51: 1807203681
+      shipsMiscellaneous_sheet_86: 1075265959
+      shipsMiscellaneous_sheet_89: -935583412
+      shipsMiscellaneous_sheet_95: 1943100531
+      shipsMiscellaneous_sheet_25: 169423003
+      shipsMiscellaneous_sheet_49: -690819981
+      shipsMiscellaneous_sheet_74: 1308692779
+      shipsMiscellaneous_sheet_33: 7067873
+      shipsMiscellaneous_sheet_83: 24145329
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
