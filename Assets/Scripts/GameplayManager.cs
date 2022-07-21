@@ -55,6 +55,7 @@ public class GameplayManager : MonoBehaviour
         Debug.Log("my healt is: " + playerHealth);
         if (playerHealth <= 0)
         {
+            Debug.Log("THE END OF GAME! Called by RPH");
             OnGameEnd?.Invoke();
         }
         
@@ -64,6 +65,7 @@ public class GameplayManager : MonoBehaviour
 
     public void FinishGame()
     {
+        Debug.Log("The game is Finished!!! Called by FinishGame in GM");
         OnGameEnd?.Invoke();
     }
 }

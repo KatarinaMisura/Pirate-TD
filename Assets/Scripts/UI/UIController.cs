@@ -28,6 +28,8 @@ public class UIController : MonoBehaviour
 
     [SerializeField]
     private TMP_Text healthText;
+    [SerializeField]
+    private GameObject EndPanel;
 
     private bool selected = false;
 
@@ -66,6 +68,7 @@ public class UIController : MonoBehaviour
         playerController.OnPlayerMoneyChange.AddListener(UpdateMoneyText);
         playerController.OnPlayerScoreChange.AddListener(UpdateScoreText);
         playerController.OnPlayerHealthChange.AddListener(UpdateHealthText);
+        GameplayManager.Instance.OnGameEnd.AddListener(ShowEndScreen);
     }
 
     private void UpdateScoreText(int score)
@@ -127,5 +130,11 @@ public class UIController : MonoBehaviour
         towerPlacementController.towerSelected = targetTower;
         selected = true;
         towerPlacementController.ToggleTilemapVisible(true);
+    }
+
+    public void ShowEndScreen()
+    {
+        Debug.Log("Looks like i was called for some reason! SES");
+        EndPanel.SetActive(true);
     }
 }
