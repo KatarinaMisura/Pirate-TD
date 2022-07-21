@@ -29,7 +29,11 @@ public class UIController : MonoBehaviour
     [SerializeField]
     private TMP_Text healthText;
     [SerializeField]
-    private GameObject EndPanel;
+    private GameObject endPanelLose;
+    [SerializeField]
+    private GameObject endPanelWin;
+
+    private bool endPanel = false;
 
     private bool selected = false;
 
@@ -84,6 +88,10 @@ public class UIController : MonoBehaviour
     private void UpdateHealthText(int health)
     {
         healthText.text = "Health: " + health;
+        if (health <= 0)
+        {
+            endPanel = true;
+        }
     }
 
     private void CreateTowerButtons()
@@ -115,7 +123,7 @@ public class UIController : MonoBehaviour
                 towerPlacementController.BuildOnSpot(Input.mousePosition);
                 selected = false;
                 towerPlacementController.ToggleTilemapVisible(false);
-                Debug.Log("Building!");
+                //Debug.Log("Building!");
                 playerController.DecreasePlayerMoney(towerPlacementController.towerSelected.TowerType.Price);
             }
             else
@@ -135,6 +143,9 @@ public class UIController : MonoBehaviour
     public void ShowEndScreen()
     {
         Debug.Log("Looks like i was called for some reason! SES");
-        EndPanel.SetActive(true);
+        if(endPanel)
+            endPanelLose.SetActive(true);
+        else
+            endPanelWin.SetActive(true);
     }
 }

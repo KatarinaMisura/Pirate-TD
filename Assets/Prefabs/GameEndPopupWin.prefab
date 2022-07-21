@@ -645,7 +645,7 @@ GameObject:
   - component: {fileID: 6039458664111196394}
   - component: {fileID: 6039458664111196395}
   m_Layer: 5
-  m_Name: GameEndPopup
+  m_Name: GameEndPopupWin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
