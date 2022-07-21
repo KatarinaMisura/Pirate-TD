@@ -34,7 +34,8 @@ public class GameplayManager : MonoBehaviour
     [field:SerializeField]
     public PlayerController PlayerController { get; set; }
 
-    private int playerHealth = 30;
+    
+    public int playerHealth = 30;
     
     public void EnemyKilledByPlayer()
     {
@@ -51,10 +52,14 @@ public class GameplayManager : MonoBehaviour
     private void RemovePlayerHealth(int value)
     {
         playerHealth -= value;
+        Debug.Log("my healt is: " + playerHealth);
         if (playerHealth <= 0)
         {
             OnGameEnd?.Invoke();
         }
+        
+        PlayerController.DecreasePlayerHealth(value);
+        
     }
 
     public void FinishGame()
