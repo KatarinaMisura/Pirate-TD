@@ -33,8 +33,6 @@ public class UIController : MonoBehaviour
     [SerializeField]
     private GameObject endPanelWin;
 
-    private bool endPanel = false;
-
     private bool selected = false;
 
     private List<ITower> currentAvaliableTowers = new List<ITower>();
@@ -88,10 +86,6 @@ public class UIController : MonoBehaviour
     private void UpdateHealthText(int health)
     {
         healthText.text = "Health: " + health;
-        if (health <= 0)
-        {
-            endPanel = true;
-        }
     }
 
     private void CreateTowerButtons()
@@ -142,8 +136,7 @@ public class UIController : MonoBehaviour
 
     public void ShowEndScreen()
     {
-        Debug.Log("Looks like i was called for some reason! SES");
-        if(endPanel)
+        if(GameplayManager.Instance.playerHealth<=0)
             endPanelLose.SetActive(true);
         else
             endPanelWin.SetActive(true);
