@@ -9,7 +9,9 @@ public class GameplayManager : MonoBehaviour
     public UnityEvent OnEnemyKilled;
 
     public UnityEvent OnGameEnd;
-    
+
+    private bool flag = false;
+
     private static GameplayManager instance;
     public static GameplayManager Instance
     {
@@ -54,7 +56,11 @@ public class GameplayManager : MonoBehaviour
         playerHealth -= value;
         if (playerHealth <= 0)
         {
-            OnGameEnd?.Invoke();
+            if (!flag)
+            {
+                OnGameEnd?.Invoke();
+                flag = true;
+            }
         }
         
         PlayerController.DecreasePlayerHealth(value);

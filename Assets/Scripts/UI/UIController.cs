@@ -33,7 +33,15 @@ public class UIController : MonoBehaviour
     [SerializeField]
     private GameObject endPanelWin;
 
+    [SerializeField]
+    private AudioSource audioSource;
+    [SerializeField]
+    private AudioSource audioSource2;
+
+    private AudioClip clip;
+
     private bool selected = false;
+    private bool flag = true;
 
     private List<ITower> currentAvaliableTowers = new List<ITower>();
 
@@ -42,8 +50,10 @@ public class UIController : MonoBehaviour
     
     // Start is called before the first frame update
     void Start()
-    {
-        
+    { 
+        clip = Resources.Load<AudioClip>("BottleOfRum");
+        audioSource.clip = clip;
+        audioSource.Play();
         playerController = GameplayManager.Instance.PlayerController;
         towerPlacementController.ToggleTilemapVisible(false);
         GetAvaliableTowers();
@@ -137,9 +147,21 @@ public class UIController : MonoBehaviour
 
     public void ShowEndScreen()
     {
-        if(GameplayManager.Instance.playerHealth<=0)
+        if (GameplayManager.Instance.playerHealth <= 0)
+        {
             endPanelLose.SetActive(true);
+            clip = Resources.Load<AudioClip>("Loser");
+            audioSource.clip = clip;
+            audioSource.Play();
+            flag = false;
+        }
         else
+        {
             endPanelWin.SetActive(true);
+            clip = Resources.Load<AudioClip>("Victory");
+            audioSource.clip = clip;
+            audioSource.Play();
+        }
+        
     }
 }
