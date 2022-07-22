@@ -35,13 +35,11 @@ public class UIController : MonoBehaviour
 
     [SerializeField]
     private AudioSource audioSource;
-    [SerializeField]
-    private AudioSource audioSource2;
 
     private AudioClip clip;
 
     private bool selected = false;
-    private bool flag = true;
+    private bool flag = false;
 
     private List<ITower> currentAvaliableTowers = new List<ITower>();
 
@@ -153,14 +151,18 @@ public class UIController : MonoBehaviour
             clip = Resources.Load<AudioClip>("Loser");
             audioSource.clip = clip;
             audioSource.Play();
-            flag = false;
         }
         else
         {
-            endPanelWin.SetActive(true);
-            clip = Resources.Load<AudioClip>("Victory");
-            audioSource.clip = clip;
-            audioSource.Play();
+            if (!flag)
+            {
+                endPanelWin.SetActive(true);
+                clip = Resources.Load<AudioClip>("Victory");
+                Debug.Log("Victory music play now!!!");
+                audioSource.clip = clip;
+                audioSource.Play();
+                flag = true;
+            }
         }
         
     }
