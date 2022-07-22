@@ -15,5 +15,5 @@ MonoBehaviour:
   <Sprite>k__BackingField: {fileID: 1462822748, guid: 77be49ff919a6fd44981b568408412cd, type: 3}
   <ProjectilePrefab>k__BackingField: {fileID: 747532892797731706, guid: ec8d396e16cf8504884e5fef99418d28, type: 3}
   <Range>k__BackingField: 4
-  <ReloadTime>k__BackingField: 0.32
-  <Price>k__BackingField: 10
+  <ReloadTime>k__BackingField: 0.3
+  <Price>k__BackingField: 12
