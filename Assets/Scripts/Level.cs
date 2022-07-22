@@ -26,8 +26,9 @@ public class Level : MonoBehaviour
     private Transform pathParent;
     private float currentSpawnTimer;
     private EnemyWave currentWave;
-    private float timeBetweenWaves = 5;
+    private float timeBetweenWaves = 8;
     private float currentWaveTimer;
+    private float timeLeft = 105.0f;
 
     private void Start()
     {
@@ -69,8 +70,12 @@ public class Level : MonoBehaviour
             currentWaveTimer = timeBetweenWaves;
         }
         else
-        { 
-            GameplayManager.Instance.FinishGame();
+        {
+            timeLeft -= Time.deltaTime;
+            if (timeLeft < 0)
+            {
+                GameplayManager.Instance.FinishGame();
+            }
         }
 
     }

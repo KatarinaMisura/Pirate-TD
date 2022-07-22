@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fa9e2dac81fe4f4583919cf004623e6, type: 3}
-  m_Name: PirateEnemy1
+  m_Script: {fileID: 11500000, guid: 986ba70cf5e44ef6aec5b11b54f3ef90, type: 3}
+  m_Name: BigProjectile
   m_EditorClassIdentifier: 
-  <Sprite>k__BackingField: {fileID: 261013350, guid: 7a605a07be0af164685c9b45df6e1f3e, type: 3}
+  <Sprite>k__BackingField: {fileID: 595199004, guid: 77be49ff919a6fd44981b568408412cd, type: 3}
   <Attack>k__BackingField: 1
-  <Health>k__BackingField: 6
   <Speed>k__BackingField: 3
