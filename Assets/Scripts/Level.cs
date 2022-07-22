@@ -28,7 +28,6 @@ public class Level : MonoBehaviour
     private EnemyWave currentWave;
     private float timeBetweenWaves = 8;
     private float currentWaveTimer;
-    private float timeLeft = 105.0f;
 
     private void Start()
     {
@@ -71,11 +70,7 @@ public class Level : MonoBehaviour
         }
         else
         {
-            timeLeft -= Time.deltaTime;
-            if (timeLeft < 0)
-            {
                 GameplayManager.Instance.FinishGame();
-            }
         }
 
     }

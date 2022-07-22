@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: PirateEnemy3
   m_EditorClassIdentifier: 
   <Sprite>k__BackingField: {fileID: -1144744927, guid: 7a605a07be0af164685c9b45df6e1f3e, type: 3}
-  <Attack>k__BackingField: 4
-  <Health>k__BackingField: 10
+  <Attack>k__BackingField: 6
+  <Health>k__BackingField: 17
   <Speed>k__BackingField: 4
